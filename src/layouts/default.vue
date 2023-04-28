@@ -4,9 +4,10 @@
             <nav>
                 <nuxt-link to="/">Home</nuxt-link>
                 <nuxt-link to="/todos">Todos</nuxt-link>
+                <nuxt-link to="/practice">Practice</nuxt-link>
             </nav>
         </div>
-        <nuxt-page></nuxt-page>
+        <slot/> <!-- Nuxt3부턴 nuxt-page대신 slot을 사용-->
     </div>
 </template>
 
