@@ -1,11 +1,13 @@
 <template>
-    <div id="app">
-        <nav>
-            <nuxt-link to="/">Home</nuxt-link>
-            <nuxt-link to="/todos">Todos</nuxt-link>
-        </nav>
+    <div>
+        <div id="app">
+            <nav>
+                <nuxt-link to="/">Home</nuxt-link>
+                <nuxt-link to="/todos">Todos</nuxt-link>
+            </nav>
+        </div>
+        <nuxt-page></nuxt-page>
     </div>
-    <Nuxt/>
 </template>
 
 <script>
