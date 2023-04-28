@@ -40,3 +40,10 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+## 기타
+
+node : 18이상
+UI : Vuetify 3.0.0
+yarn, npm 설치됨

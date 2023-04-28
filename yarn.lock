@@ -685,7 +685,7 @@
 
 "@pinia/nuxt@^0.4.9":
   version "0.4.9"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.9.tgz#de80f854cf10388523767f6080ce1cc6ea5b67e0"
+  resolved "https://registry.npmjs.org/@pinia/nuxt/-/nuxt-0.4.9.tgz"
   integrity sha512-ojzUMHKrQ7ZFjhWqMYKYetcqHSfgtIhjc6Hxw4alfQaGTlFdj38Vpz8Ol36YvmNdSjLFTNWYAgxEWCvg6HcSSg==
   dependencies:
     "@nuxt/kit" "^3.0.0"
@@ -3365,7 +3365,7 @@ pify@^2.3.0:
 
 pinia@>=2.0.35, pinia@^2.0.35:
   version "2.0.35"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.35.tgz#aa2597038bb55ea14ad689f83065d2814ebb8c10"
+  resolved "https://registry.npmjs.org/pinia/-/pinia-2.0.35.tgz"
   integrity sha512-P1IKKQWhxGXiiZ3atOaNI75bYlFUbRxtJdhPLX059Z7+b9Z04rnTZdSY8Aph1LA+/4QEMAYHsTQ638Wfe+6K5g==
   dependencies:
     "@vue/devtools-api" "^6.5.0"
