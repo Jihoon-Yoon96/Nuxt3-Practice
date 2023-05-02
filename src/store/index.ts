@@ -12,8 +12,8 @@ export const useIndexStore = defineStore('index', () => {
     }
 
     //action
-    function getText(){
-        return text
+    function changeText(msg : string){
+        text.value = msg
     }
 
     function add(){
@@ -25,5 +25,5 @@ export const useIndexStore = defineStore('index', () => {
         return value1.value + value2.value
     })
 
-    return {state, text, add, value1, combinedValue}
+    return {state, text,changeText, add, value1, combinedValue}
 })
