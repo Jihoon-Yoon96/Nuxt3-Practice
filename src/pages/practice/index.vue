@@ -32,12 +32,14 @@
                               :value="item"
                               active-color="primary"
                       >
+                          <nuxt-link :to="item.url">
 
                              <template v-slot:prepend>
                                  <v-icon :icon="item.icon"></v-icon>
                              </template>
 
-                          <nuxt-link :to="item.url"><v-list-item-title v-text="item.text"></v-list-item-title></nuxt-link>
+                          <v-list-item-title>{{item.text}}</v-list-item-title>
+                          </nuxt-link>
                       </v-list-item>
                   </v-list>
               </v-navigation-drawer>
@@ -57,9 +59,9 @@
     const items: Array<Object> = [
         { text: 'ref vs reactive', icon: 'mdi-folder', url:'/practice/ref' },
         { text: 'emitter', icon: 'mdi-account-multiple', url:'/practice/emitter' },
+        { text: 'composable', icon: 'mdi-history', url:'/practice/composable' },
+        { text: 'Pinia', icon: 'mdi-check-circle', url:'/practice/pinia' },
         { text: 'TypeScript', icon: 'mdi-star', url:'/practice/typescript' },
-        { text: '-', icon: 'mdi-history', url:'/practice/' },
-        { text: '-', icon: 'mdi-check-circle', url:'/practice/' },
         { text: '-', icon: 'mdi-upload', url:'/practice/' },
         { text: '-', icon: 'mdi-cloud-upload', url:'/practice/' },
     ];
