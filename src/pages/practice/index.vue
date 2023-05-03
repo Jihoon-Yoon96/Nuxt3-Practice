@@ -61,8 +61,8 @@
         { text: 'emitter', icon: 'mdi-account-multiple', url:'/practice/emitter' },
         { text: 'composable', icon: 'mdi-history', url:'/practice/composable' },
         { text: 'Pinia', icon: 'mdi-check-circle', url:'/practice/pinia' },
+        { text: 'Dynamic Routing', icon: 'mdi-upload', url:'/practice/dynamic' },
         { text: 'TypeScript', icon: 'mdi-star', url:'/practice/typescript' },
-        { text: '-', icon: 'mdi-upload', url:'/practice/' },
         { text: '-', icon: 'mdi-cloud-upload', url:'/practice/' },
     ];
 
