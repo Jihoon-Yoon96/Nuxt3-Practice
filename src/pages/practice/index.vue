@@ -62,8 +62,9 @@
         { text: 'composable', icon: 'mdi-history', url:'/practice/composable' },
         { text: 'Pinia', icon: 'mdi-check-circle', url:'/practice/pinia' },
         { text: 'Dynamic Routing', icon: 'mdi-upload', url:'/practice/dynamic' },
+        { text: 'useFetch', icon: 'mdi-cloud-upload', url:'/practice/usefetching' },
+        { text: 'useFetch2', icon: 'mdi-cloud-upload', url:'/practice/usefetching2' },
         { text: 'TypeScript', icon: 'mdi-star', url:'/practice/typescript' },
-        { text: '-', icon: 'mdi-cloud-upload', url:'/practice/' },
     ];
 
 
